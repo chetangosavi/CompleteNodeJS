@@ -1,0 +1,18 @@
+Globals :
+    - Like the browser, Node js comes with some practical Globals for use in our application
+
+    + Commans :
+
+            - global : think of this as window but for nodejs
+
+            - __dirname : this global is a string value that points the directory name of the file
+              its used in
+
+            - __filename : Like __dirname it too is relative to the file  its written in A String value
+              that points the filename 
+
+            - process : A swiss army knife global An Object : that content all the context you need about current Program
+              being executed. things from env vars to what matchine your on
+
+            - export,module,require : this globals are used for creating and exorting modules
+              throughtout your app

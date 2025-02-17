@@ -1,0 +1,38 @@
+Modules :
+    - There is no GUI in Node js, no html or css this also means  there arent any script tags include js files
+      into our application nodejs uses modules to share your javascript with other javascript in your apps no window 
+      or global needed
+
+    + what is module :
+        - a module is a reuseable chunk of code that has its own context that way modules cant interfere with or polute
+          the global scope
+        
+    + Two modules types :
+        - bydefault node js uses common js modules with newer version of nodejs we can now take advantage of Es6 modules
+          to opt into using this syntax you can use the .mjs extension insted of .js
+
+    + Modules syntax:
+
+            const action = ()->{
+                code here
+            }
+            module.exports = action;
+            or 
+            module.exports = { action } //this common js synatx 
+
+            export const action = ()=>{} //Es6 synatx
+
+        - To use Es6 Syntax add "type": "module" to D:\package.json or use .mjs 
+
+        - module.exports = action; ---> default export
+          module.exports = { action } ---> named export
+
+        - import action from './index.js' --> default import
+          import { action } from './index.js' --> named import
+
+    + Internal Modules :
+
+        fs - useful for interacting with file system
+        path - lib to assist with manipulating file path
+        child_process - spawn subprocesses in the background
+        http - interact with os level networking. useful for creating servers.

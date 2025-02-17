@@ -1,0 +1,5 @@
+Error Handling :
+    + Process Exiting :
+        - when a exception is thrown in nodejs the current process will exit with code of 1. this effectively
+          error out and stop your program completely you can manually do this with :
+            - process.exit(1)

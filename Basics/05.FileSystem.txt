@@ -1,0 +1,12 @@
+File System:
+
+    Untile node js there wasnt a great way to access the file system on a matchine with javascript this is due to
+    secutrity restrictions in most browsers. with nodejs one can create,edit, remote, read,stream & more with files
+
+    + Reading File:
+        - Node js ships with a powerful module fs short for file system there are many methods on fs module
+        - to read file we will use readFile() method
+
+    + importing fs :
+
+        import { fs } from 'fs' 

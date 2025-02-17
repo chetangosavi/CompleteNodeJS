@@ -1,0 +1,7 @@
+Executing Node Programs :
+
+    1> Node REPL : read evaluate print loop
+        - Executing inside terminal ( using comand node to enter into environment )
+
+    2> File Execution :
+        - node filname.js  --> to execute perticular file outside of browser / inside code editor
