@@ -16,7 +16,7 @@ const server = http.createServer((req,res)=>{
         //now it is important to close connection by respond to request else
         //server will go in handing state
 
-        res.writeHeader(201)
+        res.writeHead(201)
         res.end('OK')
     }
     else{

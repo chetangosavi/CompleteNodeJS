@@ -1,0 +1,9 @@
+API with Express JS :
+
+    + There is a aawsome package Express, that makes creating servers in Nodejs a breeze we are goind to use it now.
+
+        - npm install express body-parser moragn
+
+            1> express - a framework for building servers
+            2> body-parser - a middleware that parses incoming requests
+            3> moragn - middleware for logging requests
